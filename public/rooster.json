@@ -1,0 +1,773 @@
+{
+  "updatedAt": "2026-11-13T10:53:07.378Z",
+  "source": "https://avans.one/api/webcal?value=28026KM12AIA&c=g",
+  "timeZone": "Europe/Amsterdam",
+  "events": [
+    {
+      "id": "Ical2026-11-13T09:30:002026-11-13T11:00:00J34KM AI Mindset en Growth gastcollege9348E38E85C149A2FF721BE1CE3D0028026KM12AIA@rooster.avans.one",
+      "title": "J34KM AI Mindset en Growth gastcollege",
+      "start": "2026-11-13T09:30:00+01:00",
+      "end": "2026-11-13T11:00:00+01:00",
+      "allDay": false,
+      "location": "OL131a",
+      "description": "Docent Eveline Maas (e-mail: jcwm.maas@avans.nl), Docent Shaula Nuijts (e-mail: sme.nuijts@avans.nl)\n\nNB: Voor roostergegevens van voorbije blokken, raadpleeg https://rooster.avans.one",
+      "teachers": [
+        {
+          "name": "Eveline Maas",
+          "email": "jcwm.maas@avans.nl"
+        },
+        {
+          "name": "Shaula Nuijts",
+          "email": "sme.nuijts@avans.nl"
+        }
+      ]
+    },
+    {
+      "id": "Ical2026-11-13T11:00:002026-11-13T13:00:00J34KM AI Skillslab wsD93DE8AFDFF55867D9EBCFC595B33E28026KM12AIA@rooster.avans.one",
+      "title": "J34KM AI Skillslab ws",
+      "start": "2026-11-13T11:00:00+01:00",
+      "end": "2026-11-13T13:00:00+01:00",
+      "allDay": false,
+      "location": "OL131a",
+      "description": "Docent Daniëlle Peters (e-mail: dmem.peters@avans.nl), Docent Shaula Nuijts (e-mail: sme.nuijts@avans.nl)\n\nNB: Voor roostergegevens van voorbije blokken, raadpleeg https://rooster.avans.one",
+      "teachers": [
+        {
+          "name": "Daniëlle Peters",
+          "email": "dmem.peters@avans.nl"
+        },
+        {
+          "name": "Shaula Nuijts",
+          "email": "sme.nuijts@avans.nl"
+        }
+      ]
+    },
+    {
+      "id": "Ical2026-11-16T08:30:002026-11-16T18:00:00J34KM AI at work26919099D7BD64E9540F7BCD51791C28026KM12AIA@rooster.avans.one",
+      "title": "J34KM AI at work",
+      "start": "2026-11-16T08:30:00+01:00",
+      "end": "2026-11-16T18:00:00+01:00",
+      "allDay": false,
+      "location": "Extern",
+      "description": "Docent\n\nNB: Voor roostergegevens van voorbije blokken, raadpleeg https://rooster.avans.one",
+      "teachers": []
+    },
+    {
+      "id": "Ical2026-11-17T09:00:002026-11-17T11:00:00J34KM AI Skillslab wsC2246AFD1CE4AC0C81A9084CF1D7D628026KM12AIA@rooster.avans.one",
+      "title": "J34KM AI Skillslab ws",
+      "start": "2026-11-17T09:00:00+01:00",
+      "end": "2026-11-17T11:00:00+01:00",
+      "allDay": false,
+      "location": "OL131a",
+      "description": "Docent Daniëlle Peters (e-mail: dmem.peters@avans.nl), Docent Eveline Maas (e-mail: jcwm.maas@avans.nl)\n\nNB: Voor roostergegevens van voorbije blokken, raadpleeg https://rooster.avans.one",
+      "teachers": [
+        {
+          "name": "Daniëlle Peters",
+          "email": "dmem.peters@avans.nl"
+        },
+        {
+          "name": "Eveline Maas",
+          "email": "jcwm.maas@avans.nl"
+        }
+      ]
+    },
+    {
+      "id": "Ical2026-11-17T11:00:002026-11-17T13:00:00J34KM AI Practice wc835B38344C56CE901A4B9A9EC239C428026KM12AIA@rooster.avans.one",
+      "title": "J34KM AI Practice wc",
+      "start": "2026-11-17T11:00:00+01:00",
+      "end": "2026-11-17T13:00:00+01:00",
+      "allDay": false,
+      "location": "OL131a",
+      "description": "Docent Manouk van Dalm (e-mail: mjc.vandalm@avans.nl)\n\nNB: Voor roostergegevens van voorbije blokken, raadpleeg https://rooster.avans.one",
+      "teachers": [
+        {
+          "name": "Manouk van Dalm",
+          "email": "mjc.vandalm@avans.nl"
+        }
+      ]
+    },
+    {
+      "id": "Ical2026-11-18T12:30:002026-11-18T14:30:00J34KM AI Mindset en Growth ws9E2DCD0AFAB08ACFFD6378B17D319528026KM12AIA@rooster.avans.one",
+      "title": "J34KM AI Mindset en Growth ws",
+      "start": "2026-11-18T12:30:00+01:00",
+      "end": "2026-11-18T14:30:00+01:00",
+      "allDay": false,
+      "location": "OL131a",
+      "description": "Docent Shaula Nuijts (e-mail: sme.nuijts@avans.nl)\n\nNB: Voor roostergegevens van voorbije blokken, raadpleeg https://rooster.avans.one",
+      "teachers": [
+        {
+          "name": "Shaula Nuijts",
+          "email": "sme.nuijts@avans.nl"
+        }
+      ]
+    },
+    {
+      "id": "Ical2026-11-19T13:00:002026-11-19T15:00:00J34KM AI Skillslab ws2578EF84D4D722A258CF408547FAE028026KM12AIA@rooster.avans.one",
+      "title": "J34KM AI Skillslab ws",
+      "start": "2026-11-19T13:00:00+01:00",
+      "end": "2026-11-19T15:00:00+01:00",
+      "allDay": false,
+      "location": "OL171",
+      "description": "Docent Daniëlle Peters (e-mail: dmem.peters@avans.nl), Docent Eveline Maas (e-mail: jcwm.maas@avans.nl)\n\nNB: Voor roostergegevens van voorbije blokken, raadpleeg https://rooster.avans.one",
+      "teachers": [
+        {
+          "name": "Daniëlle Peters",
+          "email": "dmem.peters@avans.nl"
+        },
+        {
+          "name": "Eveline Maas",
+          "email": "jcwm.maas@avans.nl"
+        }
+      ]
+    },
+    {
+      "id": "Ical2026-11-19T15:00:002026-11-19T18:00:00J34KM projectbeg AI PracticeE85FF732F578CC1A71DADD67137FB028026KM12AIA@rooster.avans.one",
+      "title": "J34KM projectbeg AI Practice",
+      "start": "2026-11-19T15:00:00+01:00",
+      "end": "2026-11-19T18:00:00+01:00",
+      "allDay": false,
+      "location": "OL171, OL171b",
+      "description": "Docent Manouk van Dalm (e-mail: mjc.vandalm@avans.nl), Docent Manouk van Dalm (e-mail: mjc.vandalm@avans.nl)\n\nNB: Voor roostergegevens van voorbije blokken, raadpleeg https://rooster.avans.one",
+      "teachers": [
+        {
+          "name": "Manouk van Dalm",
+          "email": "mjc.vandalm@avans.nl"
+        }
+      ]
+    },
+    {
+      "id": "Ical2026-11-23T08:30:002026-11-23T18:00:00J34KM AI at work78B577FC804EA07B823C76716A6CA328026KM12AIA@rooster.avans.one",
+      "title": "J34KM AI at work",
+      "start": "2026-11-23T08:30:00+01:00",
+      "end": "2026-11-23T18:00:00+01:00",
+      "allDay": false,
+      "location": "Extern",
+      "description": "Docent\n\nNB: Voor roostergegevens van voorbije blokken, raadpleeg https://rooster.avans.one",
+      "teachers": []
+    },
+    {
+      "id": "Ical2026-11-24T09:30:002026-11-24T11:30:00J34KM AI Mindset en Growth gastcollege68CC311DC5B0A02BD9DDEA1B58B44B28026KM12AIA@rooster.avans.one",
+      "title": "J34KM AI Mindset en Growth gastcollege",
+      "start": "2026-11-24T09:30:00+01:00",
+      "end": "2026-11-24T11:30:00+01:00",
+      "allDay": false,
+      "location": "OL131a",
+      "description": "Docent Eveline Maas (e-mail: jcwm.maas@avans.nl)\n\nNB: Voor roostergegevens van voorbije blokken, raadpleeg https://rooster.avans.one",
+      "teachers": [
+        {
+          "name": "Eveline Maas",
+          "email": "jcwm.maas@avans.nl"
+        }
+      ]
+    },
+    {
+      "id": "Ical2026-11-24T11:30:002026-11-24T13:30:00J34KM AI Practice wc59835E4FE626BB0160CF7912E7937028026KM12AIA@rooster.avans.one",
+      "title": "J34KM AI Practice wc",
+      "start": "2026-11-24T11:30:00+01:00",
+      "end": "2026-11-24T13:30:00+01:00",
+      "allDay": false,
+      "location": "OL131a",
+      "description": "Docent Manouk van Dalm (e-mail: mjc.vandalm@avans.nl)\n\nNB: Voor roostergegevens van voorbije blokken, raadpleeg https://rooster.avans.one",
+      "teachers": [
+        {
+          "name": "Manouk van Dalm",
+          "email": "mjc.vandalm@avans.nl"
+        }
+      ]
+    },
+    {
+      "id": "Ical2026-11-26T11:00:002026-11-26T13:00:00J34KM AI Skillslab wsDC0475B9FE195B32496D10449BC34228026KM12AIA@rooster.avans.one",
+      "title": "J34KM AI Skillslab ws",
+      "start": "2026-11-26T11:00:00+01:00",
+      "end": "2026-11-26T13:00:00+01:00",
+      "allDay": false,
+      "location": "OL131a",
+      "description": "Docent Daniëlle Peters (e-mail: dmem.peters@avans.nl), Docent Shaula Nuijts (e-mail: sme.nuijts@avans.nl)\n\nNB: Voor roostergegevens van voorbije blokken, raadpleeg https://rooster.avans.one",
+      "teachers": [
+        {
+          "name": "Daniëlle Peters",
+          "email": "dmem.peters@avans.nl"
+        },
+        {
+          "name": "Shaula Nuijts",
+          "email": "sme.nuijts@avans.nl"
+        }
+      ]
+    },
+    {
+      "id": "Ical2026-11-26T13:00:002026-11-26T16:00:00J34KM projectbeg AI Practice40C854B63FDFA01D3BC5209ED7C5E828026KM12AIA@rooster.avans.one",
+      "title": "J34KM projectbeg AI Practice",
+      "start": "2026-11-26T13:00:00+01:00",
+      "end": "2026-11-26T16:00:00+01:00",
+      "allDay": false,
+      "location": "OL167, OL167b",
+      "description": "Docent Manouk van Dalm (e-mail: mjc.vandalm@avans.nl), Docent Manouk van Dalm (e-mail: mjc.vandalm@avans.nl)\n\nNB: Voor roostergegevens van voorbije blokken, raadpleeg https://rooster.avans.one",
+      "teachers": [
+        {
+          "name": "Manouk van Dalm",
+          "email": "mjc.vandalm@avans.nl"
+        }
+      ]
+    },
+    {
+      "id": "Ical2026-11-27T09:00:002026-11-27T11:00:00J34KM AI Skillslab ws11427A7812B6795CADEF1856E5167328026KM12AIA@rooster.avans.one",
+      "title": "J34KM AI Skillslab ws",
+      "start": "2026-11-27T09:00:00+01:00",
+      "end": "2026-11-27T11:00:00+01:00",
+      "allDay": false,
+      "location": "OL131a",
+      "description": "Docent Daniëlle Peters (e-mail: dmem.peters@avans.nl), Docent Shaula Nuijts (e-mail: sme.nuijts@avans.nl)\n\nNB: Voor roostergegevens van voorbije blokken, raadpleeg https://rooster.avans.one",
+      "teachers": [
+        {
+          "name": "Daniëlle Peters",
+          "email": "dmem.peters@avans.nl"
+        },
+        {
+          "name": "Shaula Nuijts",
+          "email": "sme.nuijts@avans.nl"
+        }
+      ]
+    },
+    {
+      "id": "Ical2026-11-30T08:30:002026-11-30T18:00:00J34KM AI at work26083C697E3BC657027B5EBCD73D1B28026KM12AIA@rooster.avans.one",
+      "title": "J34KM AI at work",
+      "start": "2026-11-30T08:30:00+01:00",
+      "end": "2026-11-30T18:00:00+01:00",
+      "allDay": false,
+      "location": "Extern",
+      "description": "Docent\n\nNB: Voor roostergegevens van voorbije blokken, raadpleeg https://rooster.avans.one",
+      "teachers": []
+    },
+    {
+      "id": "Ical2026-12-01T09:30:002026-12-01T11:00:00J34KM AI Gastcollege Practice8DE597FC80E9CD762D8DCFD99EEC8E28026KM12AIA@rooster.avans.one",
+      "title": "J34KM AI Gastcollege Practice",
+      "start": "2026-12-01T09:30:00+01:00",
+      "end": "2026-12-01T11:00:00+01:00",
+      "allDay": false,
+      "location": "OL131a",
+      "description": "Docent Manouk van Dalm (e-mail: mjc.vandalm@avans.nl)\n\nNB: Voor roostergegevens van voorbije blokken, raadpleeg https://rooster.avans.one",
+      "teachers": [
+        {
+          "name": "Manouk van Dalm",
+          "email": "mjc.vandalm@avans.nl"
+        }
+      ]
+    },
+    {
+      "id": "Ical2026-12-01T11:00:002026-12-01T13:00:00J34KM AI Practice wc50240E19EC284EF8A2D5C14F72A98928026KM12AIA@rooster.avans.one",
+      "title": "J34KM AI Practice wc",
+      "start": "2026-12-01T11:00:00+01:00",
+      "end": "2026-12-01T13:00:00+01:00",
+      "allDay": false,
+      "location": "OL131a",
+      "description": "Docent Manouk van Dalm (e-mail: mjc.vandalm@avans.nl)\n\nNB: Voor roostergegevens van voorbije blokken, raadpleeg https://rooster.avans.one",
+      "teachers": [
+        {
+          "name": "Manouk van Dalm",
+          "email": "mjc.vandalm@avans.nl"
+        }
+      ]
+    },
+    {
+      "id": "Ical2026-12-02T09:00:002026-12-02T11:00:00J34KM AI Skillslab ws59778651DC56B1B9B4C264E44C638A28026KM12AIA@rooster.avans.one",
+      "title": "J34KM AI Skillslab ws",
+      "start": "2026-12-02T09:00:00+01:00",
+      "end": "2026-12-02T11:00:00+01:00",
+      "allDay": false,
+      "location": "OL131a",
+      "description": "Docent Daniëlle Peters (e-mail: dmem.peters@avans.nl), Docent Eveline Maas (e-mail: jcwm.maas@avans.nl)\n\nNB: Voor roostergegevens van voorbije blokken, raadpleeg https://rooster.avans.one",
+      "teachers": [
+        {
+          "name": "Daniëlle Peters",
+          "email": "dmem.peters@avans.nl"
+        },
+        {
+          "name": "Eveline Maas",
+          "email": "jcwm.maas@avans.nl"
+        }
+      ]
+    },
+    {
+      "id": "Ical2026-12-02T12:00:002026-12-02T15:00:00J34KM projectbeg AI PracticeCC5D4F0E2EB32C1D6130C08B47352F28026KM12AIA@rooster.avans.one",
+      "title": "J34KM projectbeg AI Practice",
+      "start": "2026-12-02T12:00:00+01:00",
+      "end": "2026-12-02T15:00:00+01:00",
+      "allDay": false,
+      "location": "OL221, OL223",
+      "description": "Docent Manouk van Dalm (e-mail: mjc.vandalm@avans.nl), Docent Manouk van Dalm (e-mail: mjc.vandalm@avans.nl)\n\nNB: Voor roostergegevens van voorbije blokken, raadpleeg https://rooster.avans.one",
+      "teachers": [
+        {
+          "name": "Manouk van Dalm",
+          "email": "mjc.vandalm@avans.nl"
+        }
+      ]
+    },
+    {
+      "id": "Ical2026-12-03T10:00:002026-12-03T12:00:00J34KM AI Skillslab wsC0E6813E80BDF61DF3A4ADC4D969A128026KM12AIA@rooster.avans.one",
+      "title": "J34KM AI Skillslab ws",
+      "start": "2026-12-03T10:00:00+01:00",
+      "end": "2026-12-03T12:00:00+01:00",
+      "allDay": false,
+      "location": "OL153",
+      "description": "Docent Daniëlle Peters (e-mail: dmem.peters@avans.nl), Docent Eveline Maas (e-mail: jcwm.maas@avans.nl)\n\nNB: Voor roostergegevens van voorbije blokken, raadpleeg https://rooster.avans.one",
+      "teachers": [
+        {
+          "name": "Daniëlle Peters",
+          "email": "dmem.peters@avans.nl"
+        },
+        {
+          "name": "Eveline Maas",
+          "email": "jcwm.maas@avans.nl"
+        }
+      ]
+    },
+    {
+      "id": "Ical2026-12-03T12:30:002026-12-03T14:30:00J34KM AI Mindset en Growth ws80B42CB8F09F5FBE42EC2B7236032428026KM12AIA@rooster.avans.one",
+      "title": "J34KM AI Mindset en Growth ws",
+      "start": "2026-12-03T12:30:00+01:00",
+      "end": "2026-12-03T14:30:00+01:00",
+      "allDay": false,
+      "location": "OL131a",
+      "description": "Docent Shaula Nuijts (e-mail: sme.nuijts@avans.nl)\n\nNB: Voor roostergegevens van voorbije blokken, raadpleeg https://rooster.avans.one",
+      "teachers": [
+        {
+          "name": "Shaula Nuijts",
+          "email": "sme.nuijts@avans.nl"
+        }
+      ]
+    },
+    {
+      "id": "Ical2026-12-07T08:30:002026-12-07T18:00:00J34KM AI at workFE8862101A8A0B2318BB40533ECC3228026KM12AIA@rooster.avans.one",
+      "title": "J34KM AI at work",
+      "start": "2026-12-07T08:30:00+01:00",
+      "end": "2026-12-07T18:00:00+01:00",
+      "allDay": false,
+      "location": "Extern",
+      "description": "Docent\n\nNB: Voor roostergegevens van voorbije blokken, raadpleeg https://rooster.avans.one",
+      "teachers": []
+    },
+    {
+      "id": "Ical2026-12-08T09:00:002026-12-08T11:00:00J34KM AI Mindset en Growth gastcollegeA29EF981DE089AF382348F1B2C520A28026KM12AIA@rooster.avans.one",
+      "title": "J34KM AI Mindset en Growth gastcollege",
+      "start": "2026-12-08T09:00:00+01:00",
+      "end": "2026-12-08T11:00:00+01:00",
+      "allDay": false,
+      "location": "OL131a",
+      "description": "Docent Eveline Maas (e-mail: jcwm.maas@avans.nl)\n\nNB: Voor roostergegevens van voorbije blokken, raadpleeg https://rooster.avans.one",
+      "teachers": [
+        {
+          "name": "Eveline Maas",
+          "email": "jcwm.maas@avans.nl"
+        }
+      ]
+    },
+    {
+      "id": "Ical2026-12-08T11:00:002026-12-08T13:00:00J34KM AI Practice wc0C24EFA5A1FC62D525EA74172ADCCC28026KM12AIA@rooster.avans.one",
+      "title": "J34KM AI Practice wc",
+      "start": "2026-12-08T11:00:00+01:00",
+      "end": "2026-12-08T13:00:00+01:00",
+      "allDay": false,
+      "location": "OL131a",
+      "description": "Docent Manouk van Dalm (e-mail: mjc.vandalm@avans.nl)\n\nNB: Voor roostergegevens van voorbije blokken, raadpleeg https://rooster.avans.one",
+      "teachers": [
+        {
+          "name": "Manouk van Dalm",
+          "email": "mjc.vandalm@avans.nl"
+        }
+      ]
+    },
+    {
+      "id": "Ical2026-12-10T09:00:002026-12-10T12:00:00J34KM projectbeg AI Practice7C94CF8035964439A03E4C4B31052328026KM12AIA@rooster.avans.one",
+      "title": "J34KM projectbeg AI Practice",
+      "start": "2026-12-10T09:00:00+01:00",
+      "end": "2026-12-10T12:00:00+01:00",
+      "allDay": false,
+      "location": "OL125, OL129",
+      "description": "Docent Manouk van Dalm (e-mail: mjc.vandalm@avans.nl), Docent Manouk van Dalm (e-mail: mjc.vandalm@avans.nl)\n\nNB: Voor roostergegevens van voorbije blokken, raadpleeg https://rooster.avans.one",
+      "teachers": [
+        {
+          "name": "Manouk van Dalm",
+          "email": "mjc.vandalm@avans.nl"
+        }
+      ]
+    },
+    {
+      "id": "Ical2026-12-10T12:00:002026-12-10T14:00:00J34KM AI Skillslab wsBFC66BB552846752785FAD5E9C90E228026KM12AIA@rooster.avans.one",
+      "title": "J34KM AI Skillslab ws",
+      "start": "2026-12-10T12:00:00+01:00",
+      "end": "2026-12-10T14:00:00+01:00",
+      "allDay": false,
+      "location": "OL131a",
+      "description": "Docent Daniëlle Peters (e-mail: dmem.peters@avans.nl), Docent Shaula Nuijts (e-mail: sme.nuijts@avans.nl)\n\nNB: Voor roostergegevens van voorbije blokken, raadpleeg https://rooster.avans.one",
+      "teachers": [
+        {
+          "name": "Daniëlle Peters",
+          "email": "dmem.peters@avans.nl"
+        },
+        {
+          "name": "Shaula Nuijts",
+          "email": "sme.nuijts@avans.nl"
+        }
+      ]
+    },
+    {
+      "id": "Ical2026-12-11T10:00:002026-12-11T12:00:00J34KM AI Skillslab wsD084831973F6C7EFC7B777DA0A503628026KM12AIA@rooster.avans.one",
+      "title": "J34KM AI Skillslab ws",
+      "start": "2026-12-11T10:00:00+01:00",
+      "end": "2026-12-11T12:00:00+01:00",
+      "allDay": false,
+      "location": "OL153",
+      "description": "Docent Daniëlle Peters (e-mail: dmem.peters@avans.nl), Docent Shaula Nuijts (e-mail: sme.nuijts@avans.nl)\n\nNB: Voor roostergegevens van voorbije blokken, raadpleeg https://rooster.avans.one",
+      "teachers": [
+        {
+          "name": "Daniëlle Peters",
+          "email": "dmem.peters@avans.nl"
+        },
+        {
+          "name": "Shaula Nuijts",
+          "email": "sme.nuijts@avans.nl"
+        }
+      ]
+    },
+    {
+      "id": "Ical2026-12-14T08:30:002026-12-14T18:00:00J34KM AI at work64B3022A832B2457E4DF611FF50D0328026KM12AIA@rooster.avans.one",
+      "title": "J34KM AI at work",
+      "start": "2026-12-14T08:30:00+01:00",
+      "end": "2026-12-14T18:00:00+01:00",
+      "allDay": false,
+      "location": "Extern",
+      "description": "Docent\n\nNB: Voor roostergegevens van voorbije blokken, raadpleeg https://rooster.avans.one",
+      "teachers": []
+    },
+    {
+      "id": "Ical2026-12-15T10:00:002026-12-15T12:30:00J34KM AI Mindset en Growth POGAFDC6CFFF22D9FA857649C959CA62A28026KM12AIA@rooster.avans.one",
+      "title": "J34KM AI Mindset en Growth POG",
+      "start": "2026-12-15T10:00:00+01:00",
+      "end": "2026-12-15T12:30:00+01:00",
+      "allDay": false,
+      "location": "OL129",
+      "description": "Docent Eveline Maas (e-mail: jcwm.maas@avans.nl)\n\nNB: Voor roostergegevens van voorbije blokken, raadpleeg https://rooster.avans.one",
+      "teachers": [
+        {
+          "name": "Eveline Maas",
+          "email": "jcwm.maas@avans.nl"
+        }
+      ]
+    },
+    {
+      "id": "Ical2026-12-15T12:30:002026-12-15T14:30:00J34KM AI Practice wc08B563AE45E0FE117C979C2778AA1828026KM12AIA@rooster.avans.one",
+      "title": "J34KM AI Practice wc",
+      "start": "2026-12-15T12:30:00+01:00",
+      "end": "2026-12-15T14:30:00+01:00",
+      "allDay": false,
+      "location": "OL131a",
+      "description": "Docent Manouk van Dalm (e-mail: mjc.vandalm@avans.nl)\n\nNB: Voor roostergegevens van voorbije blokken, raadpleeg https://rooster.avans.one",
+      "teachers": [
+        {
+          "name": "Manouk van Dalm",
+          "email": "mjc.vandalm@avans.nl"
+        }
+      ]
+    },
+    {
+      "id": "Ical2026-12-16T09:00:002026-12-16T11:00:00J34KM AI Skillslab wsEDE49330C671FBBB4C15021F8810FE28026KM12AIA@rooster.avans.one",
+      "title": "J34KM AI Skillslab ws",
+      "start": "2026-12-16T09:00:00+01:00",
+      "end": "2026-12-16T11:00:00+01:00",
+      "allDay": false,
+      "location": "OL171",
+      "description": "Docent Daniëlle Peters (e-mail: dmem.peters@avans.nl), Docent Eveline Maas (e-mail: jcwm.maas@avans.nl)\n\nNB: Voor roostergegevens van voorbije blokken, raadpleeg https://rooster.avans.one",
+      "teachers": [
+        {
+          "name": "Daniëlle Peters",
+          "email": "dmem.peters@avans.nl"
+        },
+        {
+          "name": "Eveline Maas",
+          "email": "jcwm.maas@avans.nl"
+        }
+      ]
+    },
+    {
+      "id": "Ical2026-12-16T11:00:002026-12-16T13:30:00J34KM AI Mindset en Growth POG1C4FCDC211979BA02891DFBBAF74AD28026KM12AIA@rooster.avans.one",
+      "title": "J34KM AI Mindset en Growth POG",
+      "start": "2026-12-16T11:00:00+01:00",
+      "end": "2026-12-16T13:30:00+01:00",
+      "allDay": false,
+      "location": "OL127",
+      "description": "Docent Shaula Nuijts (e-mail: sme.nuijts@avans.nl)\n\nNB: Voor roostergegevens van voorbije blokken, raadpleeg https://rooster.avans.one",
+      "teachers": [
+        {
+          "name": "Shaula Nuijts",
+          "email": "sme.nuijts@avans.nl"
+        }
+      ]
+    },
+    {
+      "id": "Ical2026-12-17T09:00:002026-12-17T11:30:00J34KM AI Mindset en Growth POG9563570CA53908F6EF965BB4ABFFA028026KM12AIA@rooster.avans.one",
+      "title": "J34KM AI Mindset en Growth POG",
+      "start": "2026-12-17T09:00:00+01:00",
+      "end": "2026-12-17T11:30:00+01:00",
+      "allDay": false,
+      "location": "OL124a, OL135",
+      "description": "Docent Eveline Maas (e-mail: jcwm.maas@avans.nl), Docent Shaula Nuijts (e-mail: sme.nuijts@avans.nl)\n\nNB: Voor roostergegevens van voorbije blokken, raadpleeg https://rooster.avans.one",
+      "teachers": [
+        {
+          "name": "Eveline Maas",
+          "email": "jcwm.maas@avans.nl"
+        },
+        {
+          "name": "Shaula Nuijts",
+          "email": "sme.nuijts@avans.nl"
+        }
+      ]
+    },
+    {
+      "id": "Ical2026-12-17T12:00:002026-12-17T14:00:00J34KM AI Skillslab ws7426D6BA2D85C80C375DFD1F45CC9628026KM12AIA@rooster.avans.one",
+      "title": "J34KM AI Skillslab ws",
+      "start": "2026-12-17T12:00:00+01:00",
+      "end": "2026-12-17T14:00:00+01:00",
+      "allDay": false,
+      "location": "OL131a",
+      "description": "Docent Daniëlle Peters (e-mail: dmem.peters@avans.nl), Docent Eveline Maas (e-mail: jcwm.maas@avans.nl)\n\nNB: Voor roostergegevens van voorbije blokken, raadpleeg https://rooster.avans.one",
+      "teachers": [
+        {
+          "name": "Daniëlle Peters",
+          "email": "dmem.peters@avans.nl"
+        },
+        {
+          "name": "Eveline Maas",
+          "email": "jcwm.maas@avans.nl"
+        }
+      ]
+    },
+    {
+      "id": "Ical2026-12-17T14:00:002026-12-17T17:00:00J34KM projectbeg AI Practice2F137F8631E1A01B6547057BC8063D28026KM12AIA@rooster.avans.one",
+      "title": "J34KM projectbeg AI Practice",
+      "start": "2026-12-17T14:00:00+01:00",
+      "end": "2026-12-17T17:00:00+01:00",
+      "allDay": false,
+      "location": "OL167, OL167b",
+      "description": "Docent Manouk van Dalm (e-mail: mjc.vandalm@avans.nl), Docent Manouk van Dalm (e-mail: mjc.vandalm@avans.nl)\n\nNB: Voor roostergegevens van voorbije blokken, raadpleeg https://rooster.avans.one",
+      "teachers": [
+        {
+          "name": "Manouk van Dalm",
+          "email": "mjc.vandalm@avans.nl"
+        }
+      ]
+    },
+    {
+      "id": "Ical2027-01-04T08:30:002027-01-04T18:00:00J34KM AI at work335DB245032F556075BC0758EB53C028026KM12AIA@rooster.avans.one",
+      "title": "J34KM AI at work",
+      "start": "2027-01-04T08:30:00+01:00",
+      "end": "2027-01-04T18:00:00+01:00",
+      "allDay": false,
+      "location": "Extern",
+      "description": "Docent\n\nNB: Voor roostergegevens van voorbije blokken, raadpleeg https://rooster.avans.one",
+      "teachers": []
+    },
+    {
+      "id": "Ical2027-01-05T09:30:002027-01-05T12:00:00J34KM AI Mindset en Growth POG87C0CAB08FD9C5AF7265326D13806328026KM12AIA@rooster.avans.one",
+      "title": "J34KM AI Mindset en Growth POG",
+      "start": "2027-01-05T09:30:00+01:00",
+      "end": "2027-01-05T12:00:00+01:00",
+      "allDay": false,
+      "location": "OL104",
+      "description": "Docent Eveline Maas (e-mail: jcwm.maas@avans.nl)\n\nNB: Voor roostergegevens van voorbije blokken, raadpleeg https://rooster.avans.one",
+      "teachers": [
+        {
+          "name": "Eveline Maas",
+          "email": "jcwm.maas@avans.nl"
+        }
+      ]
+    },
+    {
+      "id": "Ical2027-01-05T12:00:002027-01-05T13:00:00J34KM AI Skillslab herkansing9DC6412EA6C9851D075045D2C510AA28026KM12AIA@rooster.avans.one",
+      "title": "J34KM AI Skillslab herkansing",
+      "start": "2027-01-05T12:00:00+01:00",
+      "end": "2027-01-05T13:00:00+01:00",
+      "allDay": false,
+      "location": "OL104",
+      "description": "Docent Daniëlle Peters (e-mail: dmem.peters@avans.nl), Docent Eveline Maas (e-mail: jcwm.maas@avans.nl), Docent Shaula Nuijts (e-mail: sme.nuijts@avans.nl)\n\nNB: Voor roostergegevens van voorbije blokken, raadpleeg https://rooster.avans.one",
+      "teachers": [
+        {
+          "name": "Daniëlle Peters",
+          "email": "dmem.peters@avans.nl"
+        },
+        {
+          "name": "Eveline Maas",
+          "email": "jcwm.maas@avans.nl"
+        },
+        {
+          "name": "Shaula Nuijts",
+          "email": "sme.nuijts@avans.nl"
+        }
+      ]
+    },
+    {
+      "id": "Ical2027-01-06T09:00:002027-01-06T11:30:00J34KM AI Mindset en Growth POGB34C190059851F2891E1D8517844C128026KM12AIA@rooster.avans.one",
+      "title": "J34KM AI Mindset en Growth POG",
+      "start": "2027-01-06T09:00:00+01:00",
+      "end": "2027-01-06T11:30:00+01:00",
+      "allDay": false,
+      "location": "OL147",
+      "description": "Docent Shaula Nuijts (e-mail: sme.nuijts@avans.nl)\n\nNB: Voor roostergegevens van voorbije blokken, raadpleeg https://rooster.avans.one",
+      "teachers": [
+        {
+          "name": "Shaula Nuijts",
+          "email": "sme.nuijts@avans.nl"
+        }
+      ]
+    },
+    {
+      "id": "Ical2027-01-06T15:00:002027-01-06T17:30:00J34KM AI Mindset en Growth POG19C15652D98BAA59517548DAAC12E028026KM12AIA@rooster.avans.one",
+      "title": "J34KM AI Mindset en Growth POG",
+      "start": "2027-01-06T15:00:00+01:00",
+      "end": "2027-01-06T17:30:00+01:00",
+      "allDay": false,
+      "location": "OL147",
+      "description": "Docent Eveline Maas (e-mail: jcwm.maas@avans.nl)\n\nNB: Voor roostergegevens van voorbije blokken, raadpleeg https://rooster.avans.one",
+      "teachers": [
+        {
+          "name": "Eveline Maas",
+          "email": "jcwm.maas@avans.nl"
+        }
+      ]
+    },
+    {
+      "id": "Ical2027-01-07T09:00:002027-01-07T11:30:00J34KM AI Mindset en Growth POG6979534A1EE47087064A4060FA5C1228026KM12AIA@rooster.avans.one",
+      "title": "J34KM AI Mindset en Growth POG",
+      "start": "2027-01-07T09:00:00+01:00",
+      "end": "2027-01-07T11:30:00+01:00",
+      "allDay": false,
+      "location": "OL221",
+      "description": "Docent Shaula Nuijts (e-mail: sme.nuijts@avans.nl)\n\nNB: Voor roostergegevens van voorbije blokken, raadpleeg https://rooster.avans.one",
+      "teachers": [
+        {
+          "name": "Shaula Nuijts",
+          "email": "sme.nuijts@avans.nl"
+        }
+      ]
+    },
+    {
+      "id": "Ical2027-01-11T08:30:002027-01-11T18:00:00J34KM AI at workF4D90D179B8938AE2E9D440025D75728026KM12AIA@rooster.avans.one",
+      "title": "J34KM AI at work",
+      "start": "2027-01-11T08:30:00+01:00",
+      "end": "2027-01-11T18:00:00+01:00",
+      "allDay": false,
+      "location": "Extern",
+      "description": "Docent\n\nNB: Voor roostergegevens van voorbije blokken, raadpleeg https://rooster.avans.one",
+      "teachers": []
+    },
+    {
+      "id": "Ical2027-01-13T09:00:002027-01-13T16:00:00J34KM presenteren AI PracticeB3D8F665A52D9890722BA8E1DEB03428026KM12AIA@rooster.avans.one",
+      "title": "J34KM presenteren AI Practice",
+      "start": "2027-01-13T09:00:00+01:00",
+      "end": "2027-01-13T16:00:00+01:00",
+      "allDay": false,
+      "location": "OL171a",
+      "description": "Docent Manouk van Dalm (e-mail: mjc.vandalm@avans.nl)\n\nNB: Voor roostergegevens van voorbije blokken, raadpleeg https://rooster.avans.one",
+      "teachers": [
+        {
+          "name": "Manouk van Dalm",
+          "email": "mjc.vandalm@avans.nl"
+        }
+      ]
+    },
+    {
+      "id": "Ical2027-01-14T09:00:002027-01-14T16:00:00J34KM presenteren AI PracticeFB79DA13AA4C59733A5E169C68A70128026KM12AIA@rooster.avans.one",
+      "title": "J34KM presenteren AI Practice",
+      "start": "2027-01-14T09:00:00+01:00",
+      "end": "2027-01-14T16:00:00+01:00",
+      "allDay": false,
+      "location": "OL134",
+      "description": "Docent Manouk van Dalm (e-mail: mjc.vandalm@avans.nl)\n\nNB: Voor roostergegevens van voorbije blokken, raadpleeg https://rooster.avans.one",
+      "teachers": [
+        {
+          "name": "Manouk van Dalm",
+          "email": "mjc.vandalm@avans.nl"
+        }
+      ]
+    },
+    {
+      "id": "Ical2027-01-14T12:00:002027-01-14T13:00:00J34KM AI Skillslab herkansing79E9154FFBA12DE15E84E595B878F028026KM12AIA@rooster.avans.one",
+      "title": "J34KM AI Skillslab herkansing",
+      "start": "2027-01-14T12:00:00+01:00",
+      "end": "2027-01-14T13:00:00+01:00",
+      "allDay": false,
+      "location": "OL153",
+      "description": "Docent Daniëlle Peters (e-mail: dmem.peters@avans.nl), Docent Eveline Maas (e-mail: jcwm.maas@avans.nl), Docent Shaula Nuijts (e-mail: sme.nuijts@avans.nl)\n\nNB: Voor roostergegevens van voorbije blokken, raadpleeg https://rooster.avans.one",
+      "teachers": [
+        {
+          "name": "Daniëlle Peters",
+          "email": "dmem.peters@avans.nl"
+        },
+        {
+          "name": "Eveline Maas",
+          "email": "jcwm.maas@avans.nl"
+        },
+        {
+          "name": "Shaula Nuijts",
+          "email": "sme.nuijts@avans.nl"
+        }
+      ]
+    },
+    {
+      "id": "Ical2027-01-18T09:30:002027-01-18T10:30:00J34KM AI Skillslab herkansingA68717D8C8CCE147CA640D41741FD028026KM12AIA@rooster.avans.one",
+      "title": "J34KM AI Skillslab herkansing",
+      "start": "2027-01-18T09:30:00+01:00",
+      "end": "2027-01-18T10:30:00+01:00",
+      "allDay": false,
+      "location": "OL104",
+      "description": "Docent Daniëlle Peters (e-mail: dmem.peters@avans.nl), Docent Eveline Maas (e-mail: jcwm.maas@avans.nl), Docent Shaula Nuijts (e-mail: sme.nuijts@avans.nl)\n\nNB: Voor roostergegevens van voorbije blokken, raadpleeg https://rooster.avans.one",
+      "teachers": [
+        {
+          "name": "Daniëlle Peters",
+          "email": "dmem.peters@avans.nl"
+        },
+        {
+          "name": "Eveline Maas",
+          "email": "jcwm.maas@avans.nl"
+        },
+        {
+          "name": "Shaula Nuijts",
+          "email": "sme.nuijts@avans.nl"
+        }
+      ]
+    },
+    {
+      "id": "Ical2027-01-26T09:00:002027-01-26T10:00:00J34KM AI Practice herkansingC68046C4CCD64C4B491024F0D30C6A28026KM12AIA@rooster.avans.one",
+      "title": "J34KM AI Practice herkansing",
+      "start": "2027-01-26T09:00:00+01:00",
+      "end": "2027-01-26T10:00:00+01:00",
+      "allDay": false,
+      "location": "OL124b",
+      "description": "Docent Manouk van Dalm (e-mail: mjc.vandalm@avans.nl)\n\nNB: Voor roostergegevens van voorbije blokken, raadpleeg https://rooster.avans.one",
+      "teachers": [
+        {
+          "name": "Manouk van Dalm",
+          "email": "mjc.vandalm@avans.nl"
+        }
+      ]
+    },
+    {
+      "id": "Ical2027-01-28T09:30:002027-01-28T11:30:00J34KM AI Mindset en Growth herkansing POGB783FF5EDF6DB843D1E7A31B511C6C28026KM12AIA@rooster.avans.one",
+      "title": "J34KM AI Mindset en Growth herkansing POG",
+      "start": "2027-01-28T09:30:00+01:00",
+      "end": "2027-01-28T11:30:00+01:00",
+      "allDay": false,
+      "location": "OL227, OL249",
+      "description": "Docent Eveline Maas (e-mail: jcwm.maas@avans.nl), Docent Shaula Nuijts (e-mail: sme.nuijts@avans.nl), Docent Eveline Maas (e-mail: jcwm.maas@avans.nl), Docent Shaula Nuijts (e-mail: sme.nuijts@avans.nl)\n\nNB: Voor roostergegevens van voorbije blokken, raadpleeg https://rooster.avans.one",
+      "teachers": [
+        {
+          "name": "Eveline Maas",
+          "email": "jcwm.maas@avans.nl"
+        },
+        {
+          "name": "Shaula Nuijts",
+          "email": "sme.nuijts@avans.nl"
+        }
+      ]
+    }
+  ]
+}
+
