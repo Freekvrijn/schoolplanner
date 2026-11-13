@@ -16,6 +16,22 @@
 
 | Iteratie | Tool / uitvoerder | Doel | Resultaat | Bewijsstatus | Vervolg |
 | --- | --- | --- | --- | --- | --- |
-| 001 | Lovable, gestart door Codex namens student | Eerste MVP bouwen | In uitvoering | Prompt en beginsituatie vastgelegd; functionele controle volgt | Broncode controleren en gebruikersflows testen |
+| 001 | Lovable, gestart door Codex namens student | Eerste MVP bouwen | App gegenereerd; onafhankelijke installatie faalde | Prompt, bronversie, bouwscreenshot en foutmelding bewaard | Portable installatie en functionele controle |
+| 002 | Codex lokaal + GitHub Actions + Safari | Repareren, testen en publiceren | Build/tests/deploy geslaagd; live gebruikersflows gecontroleerd | Foutenscreenshot, CI-uitkomsten, desktop/mobiele screenshots, notitie na herladen en testbackup bewaard | Eigen studentreflectie en presentatie voorbereiden |
+
+## 13 november 2026 — reparatie en publicatie
+
+- Lovable leverde commit efe38ac738df3065674983dfe453227c589df09c op. Code bewaard in lokale/GitHub-commit 074612b.
+- Onafhankelijke installatie faalde door sandboxverwijzingen in het lockfile. Het exacte resultaat is bewaard.
+- De tweede prompt kon niet door Lovable worden uitgevoerd wegens ontbrekende credits. De student is geïnformeerd. Vervolgwerk is expliciet als lokale Codex-reparatie vastgelegd.
+- De lokale omgeving kon geen npm-netwerktoegang krijgen. Installatie, types, tests en build zijn daarom uitgevoerd via de geautoriseerde GitHub Actions-workflow.
+- De eerste CI-pogingen faalden bij pakketresolutie. Ongebruikte template/serverpakketten zijn verwijderd en npm is bijgewerkt. Daarna slaagde de schone installatie.
+- Typecontrole vond nog een ontbrekende laadcomponent en testtypes; beide hersteld. De echte productcode en tests zijn vervolgens geslaagd.
+- Geslaagde productiebron: d9e18d1. Run: https://github.com/Freekvrijn/schoolplanner/actions/runs/43415835596.
+- Publicatie geverifieerd via succesvolle deployment, HTTP 200, 48 live lessen en Safari.
+- Live URL: https://freekvanrijn.nl/schoolplanner/.
+- Safari desktop en responsive 375 × 812 gecontroleerd: les openen, taak toevoegen/afvinken, notitie typen, sluiten en herladen, teruglezen, weeknavigatie en zoeken. Backupdownload gevalideerd. Alleen gemarkeerde TEST-gegevens gebruikt.
+- Volledige browserimport en fysiek mobiel toetsenbord niet geverifieerd. Er zijn geen resultaten daarvoor verzonnen.
+- Screenshots en concrete controle-uitkomsten staan bij docs/bewijs/iteratie-002. Zie iteratieverslag voor de volledige testtabel.
 
 Persoonlijke reflectie: nog door student aan te vullen.

@@ -1,0 +1,34 @@
+{
+  "app": "schoolplanner",
+  "exportedAt": "2026-11-13T11:20:32.579Z",
+  "data": {
+    "version": 1,
+    "tasks": [
+      {
+        "id": "6a0d675b-961d-4f31-9a02-a063e9bfb641",
+        "lessonId": "Ical2026-11-13T11:00:002026-11-13T13:00:00J34KM AI Skillslab wsD93DE8AFDFF55867D9EBCFC595B33E28026KM12AIA@rooster.avans.one",
+        "text": "TEST — voorbereiding controleren",
+        "done": true,
+        "createdAt": "2026-11-13T11:19:09.157Z",
+        "completedAt": "2026-11-13T11:19:13.340Z",
+        "dueDate": null
+      }
+    ],
+    "notes": {
+      "Ical2026-11-13T11:00:002026-11-13T13:00:00J34KM AI Skillslab wsD93DE8AFDFF55867D9EBCFC595B33E28026KM12AIA@rooster.avans.one": {
+        "lessonId": "Ical2026-11-13T11:00:002026-11-13T13:00:00J34KM AI Skillslab wsD93DE8AFDFF55867D9EBCFC595B33E28026KM12AIA@rooster.avans.one",
+        "text": "TEST — aantekeningen blijven na herladen bewaard.",
+        "updatedAt": "2026-11-13T11:19:18.444Z"
+      }
+    },
+    "lessons": {
+      "Ical2026-11-13T11:00:002026-11-13T13:00:00J34KM AI Skillslab wsD93DE8AFDFF55867D9EBCFC595B33E28026KM12AIA@rooster.avans.one": {
+        "id": "Ical2026-11-13T11:00:002026-11-13T13:00:00J34KM AI Skillslab wsD93DE8AFDFF55867D9EBCFC595B33E28026KM12AIA@rooster.avans.one",
+        "title": "J34KM AI Skillslab ws",
+        "start": "2026-11-13T11:00:00+01:00",
+        "end": "2026-11-13T13:00:00+01:00",
+        "location": "OL131a"
+      }
+    }
+  }
+}

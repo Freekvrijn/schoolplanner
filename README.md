@@ -1,5 +1,7 @@
 # Schoolplanner
 
+**Live:** [freekvanrijn.nl/schoolplanner](https://freekvanrijn.nl/schoolplanner/)
+
 Een mobile-first planner voor Freek met het echte Avans-rooster, voorbereidingstaken en aantekeningen per les. De eerste applicatie is gebouwd met [Lovable](https://lovable.dev/projects/b56cb6be-5819-4636-abd5-85fdcd50b24f). Publicatie gebeurt via GitHub Pages vanuit main.
 
 ## Gebruik
