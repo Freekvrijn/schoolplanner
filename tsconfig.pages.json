@@ -1,0 +1,5 @@
+{
+  "extends": "./tsconfig.json",
+  "include": ["src/static-entry.tsx", "src/planner/**/*.ts", "src/planner/**/*.tsx", "src/test/planner*.ts", "src/test/planner*.tsx", "vite.pages.config.ts", "vitest.config.ts"],
+  "compilerOptions": { "types": ["vite/client", "vitest/globals", "node"], "allowJs": true, "checkJs": false }
+}

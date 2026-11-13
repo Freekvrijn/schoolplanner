@@ -8,7 +8,7 @@ on:
     - cron: "17 */3 * * *" # elke 3 uur: rooster opnieuw ophalen en publiceren
 
 permissions:
-  contents: read
+  contents: write # een ontbrekend, portable npm-lockfile eenmalig vastleggen
   pages: write
   id-token: write
 
@@ -24,7 +24,15 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: npm
+      - name: Eenmalig portable lockfile maken
+        if: hashFiles('package-lock.json') == ''
+        run: |
+          npm install --package-lock-only --ignore-scripts --no-audit --no-fund
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add package-lock.json
+          git commit -m 'build: genereer portable npm-lockfile'
+          git push
       - run: npm ci
       - name: Rooster synchroniseren
         # Faalt de bron, dan blijft de bestaande echte snapshot staan (met oude updatedAt en
@@ -32,6 +40,8 @@ jobs:
         run: npm run sync:calendar
         env:
           TZ: Europe/Amsterdam
+      - run: npm run typecheck
+      - run: npm test
       - run: npm run build
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4

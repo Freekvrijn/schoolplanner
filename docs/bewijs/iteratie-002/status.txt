@@ -1,0 +1,4 @@
+De vervolgprompt in prompt.txt is aangeboden aan Lovable, maar niet uitgevoerd.
+Toolresultaat: Your workspace is out of credits, so Lovable cannot send this message.
+De reparaties in iteratie 002 worden lokaal uitgevoerd door Codex.
+Installatie en build worden uitgevoerd in GitHub Actions vanwege beperkte netwerktoegang in de lokale omgeving.

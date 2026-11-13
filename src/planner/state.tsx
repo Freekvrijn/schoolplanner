@@ -234,7 +234,18 @@ export function PlannerProvider({ children }: { children: ReactNode }) {
     [commit],
   );
 
-  const replaceData = useCallback((next: PlannerData) => commit(next), [commit]);
+  const replaceData = useCallback((next: PlannerData): SaveResult => {
+    const validated = validateData(next);
+    if (!validated.ok) return { ok: false, error: validated.error };
+    // An import is a replacement: only switch the visible data after storage succeeds.
+    const result = saveData(storage, validated.value);
+    setSaveError(result.ok ? null : result.error);
+    if (result.ok) {
+      dataRef.current = validated.value;
+      setData(validated.value);
+    }
+    return result;
+  }, [storage]);
 
   const resolveLesson = useCallback(
     (id: string): ResolvedLesson | null => {

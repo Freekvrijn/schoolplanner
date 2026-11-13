@@ -13,7 +13,9 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "sync:calendar": "node scripts/sync-calendar.mjs",
-    "build:lovable": "vite build"
+    "build:lovable": "vite build",
+    "typecheck": "tsc -p tsconfig.pages.json",
+    "dev:pages": "vite --config vite.pages.config.ts"
   },
   "overrides": {
     "rolldown": "1.2.1"
@@ -97,4 +99,3 @@
     "vitest": "^4.1.10"
   }
 }
-

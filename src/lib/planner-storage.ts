@@ -54,10 +54,12 @@ export function validateData(x: unknown): Result<PlannerData> {
   }
 
   const tasks: Task[] = [];
+  const taskIds = new Set<string>();
   for (const [i, t] of tasksRaw.entries()) {
     if (
       !isObj(t) ||
       !isStr(t["id"]) ||
+      !t["id"].trim() ||
       !isStr(t["lessonId"]) ||
       !isStr(t["text"]) ||
       typeof t["done"] !== "boolean" ||
@@ -67,6 +69,8 @@ export function validateData(x: unknown): Result<PlannerData> {
     ) {
       return { ok: false, error: `Taak ${i + 1} is ongeldig.` };
     }
+    if (taskIds.has(t["id"])) return { ok: false, error: "De backup bevat dubbele taak-ID's." };
+    taskIds.add(t["id"]);
     tasks.push({
       id: t["id"],
       lessonId: t["lessonId"],
@@ -78,7 +82,7 @@ export function validateData(x: unknown): Result<PlannerData> {
     });
   }
 
-  const notes: Record<string, Note> = {};
+  const notes: Record<string, Note> = Object.create(null);
   for (const [key, n] of Object.entries(notesRaw)) {
     if (!isObj(n) || !isStr(n["text"]) || !isDate(n["updatedAt"]) || n["lessonId"] !== key) {
       return { ok: false, error: "Een aantekening is ongeldig." };
@@ -86,7 +90,7 @@ export function validateData(x: unknown): Result<PlannerData> {
     notes[key] = { lessonId: key, text: n["text"], updatedAt: n["updatedAt"] };
   }
 
-  const lessons: Record<string, LessonMeta> = {};
+  const lessons: Record<string, LessonMeta> = Object.create(null);
   for (const [key, l] of Object.entries(lessonsRaw)) {
     if (
       !isObj(l) ||
@@ -99,6 +103,11 @@ export function validateData(x: unknown): Result<PlannerData> {
       return { ok: false, error: "Opgeslagen lesgegevens zijn ongeldig." };
     }
     lessons[key] = { id: key, title: l["title"], start: l["start"], end: l["end"], location: l["location"] };
+  }
+
+  if (tasks.some((t) => !Object.hasOwn(lessons, t.lessonId)) ||
+      Object.keys(notes).some((id) => !Object.hasOwn(lessons, id))) {
+    return { ok: false, error: "De backup mist lesgegevens bij een taak of aantekening." };
   }
 
   return { ok: true, value: { version: SCHEMA_VERSION, tasks, notes, lessons } };

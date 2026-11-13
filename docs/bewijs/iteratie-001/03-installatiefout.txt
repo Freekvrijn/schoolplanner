@@ -1,0 +1,14 @@
+Datum: 13 november 2026
+Uitgevoerd door: Codex, onafhankelijke controle van Lovable-commit efe38ac738df3065674983dfe453227c589df09c
+Omgeving: macOS arm64, Node v20.20.2, npm 10.8.2
+Commando: npm ci --ignore-scripts --no-audit --no-fund
+Exitcode: 1
+
+npm error code EBADPLATFORM
+npm error notsup Unsupported platform for @oxc-parser/binding-linux-x64-gnu@0.120.0: wanted {"os":"linux","cpu":"x64"} (current: {"os":"darwin","cpu":"arm64"})
+npm error notsup Valid os: linux
+npm error notsup Actual os: darwin
+npm error notsup Valid cpu: x64
+npm error notsup Actual cpu: arm64
+
+Inspectie: package-lock.json bevat veel ../persist/node_modules/... verwijzingen uit de Lovable-sandbox. De app is op dit moment nog niet lokaal gebouwd of functioneel getest.
