@@ -40,7 +40,7 @@ describe("Lesgegevens bewaren", () => {
     fireEvent.change(screen.getByLabelText("Wat moet je voor deze les gedaan hebben?"), { target: { value: "Hoofdstuk 3 lezen" } });
     fireEvent.click(screen.getByRole("button", { name: "Taak toevoegen" }));
     fireEvent.click(screen.getByRole("checkbox", { name: "Markeer als gedaan: Hoofdstuk 3 lezen" }));
-    fireEvent.click(screen.getByRole("tab", { name: "Aantekeningen" }));
+    fireEvent.mouseDown(screen.getByRole("tab", { name: "Aantekeningen" }), { button: 0, ctrlKey: false });
     fireEvent.change(screen.getByLabelText("Aantekeningen bij deze les"), { target: { value: "Dit is mijn eigen notitie." } });
     // Unmount before the debounce expires: this must flush the latest text.
     first.unmount();
@@ -49,7 +49,7 @@ describe("Lesgegevens bewaren", () => {
     expect(saved.notes[lesson.id].text).toBe("Dit is mijn eigen notitie.");
     render(<PlannerApp />);
     fireEvent.click(await screen.findByRole("button", { name: /J34KM AI Skillslab ws, 09:30/ }));
-    fireEvent.click(screen.getByRole("tab", { name: "Aantekeningen" }));
+    fireEvent.mouseDown(screen.getByRole("tab", { name: "Aantekeningen" }), { button: 0, ctrlKey: false });
     expect(screen.getByLabelText("Aantekeningen bij deze les")).toHaveValue("Dit is mijn eigen notitie.");
   });
 });
