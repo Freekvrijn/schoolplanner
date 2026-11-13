@@ -18,6 +18,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 001 | Lovable, gestart door Codex namens student | Eerste MVP bouwen | App gegenereerd; onafhankelijke installatie faalde | Prompt, bronversie, bouwscreenshot en foutmelding bewaard | Portable installatie en functionele controle |
 | 002 | Codex lokaal + GitHub Actions + Safari | Repareren, testen en publiceren | Build/tests/deploy geslaagd; live gebruikersflows gecontroleerd | Foutenscreenshot, CI-uitkomsten, desktop/mobiele screenshots, notitie na herladen en testbackup bewaard | Eigen studentreflectie en presentatie voorbereiden |
+| 003 | Codex lokaal + GitHub Actions + Chrome | Weekraster zoals Apple Kalender, definitief 08:00–18:00 | Typecheck/tests/build/deploy geslaagd; raster en lespaneel live gecontroleerd | Opdracht/correctie, CI-resultaten en drie desktopscreenshots bewaard; mobiele indeling visueel bekeken | Eigen reflectie over deze functionele iteratie aanvullen |
 
 ## 13 november 2026 — reparatie en publicatie
 
@@ -35,3 +36,13 @@
 - Screenshots en concrete controle-uitkomsten staan bij docs/bewijs/iteratie-002. Zie iteratieverslag voor de volledige testtabel.
 
 Persoonlijke reflectie: nog door student aan te vullen.
+
+## 13 november 2026 — extra weekraster
+
+- Student vroeg om een tijdgebaseerd weekoverzicht zoals Apple Kalender, eerst 09:00–17:00, direct gecorrigeerd naar 08:00–18:00.
+- Nieuwe rasterweergave onder Agenda → Week, met maandag t/m zondag, correcte tijdpositie en duur, kleur per vak en huidige dag/tijd.
+- De eerdere weeklijst blijft beschikbaar via Lijst; Dag/Alles en filters zijn behouden.
+- Uitbreiding lokaal door Codex gedaan op de Lovable-basis. Geen Lovable-credits aangeschaft of verbruikt voor deze iteratie.
+- Productieversie f18b2dc gecontroleerd in run 43417407395; alle checks en publicatie geslaagd.
+- Live lespaneel vanuit het raster geopend; komende week bekeken met echte lessen; sticky koppen en tijdvak tot 18:00 geobserveerd. Mobiele weergave op 375 × 812 in Chrome bekeken.
+- Bewijs in docs/bewijs/iteratie-003; volledige uitkomst in docs/iteraties/iteratie-003.md.

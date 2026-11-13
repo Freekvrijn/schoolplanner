@@ -11,6 +11,7 @@ Gebruik de volgende echte voorbeelden om het proces te laten zien. Sluit de afbe
 | Gegevens bewaren | bewijs/iteratie-002/03-notitie-na-herladen.png | De getypte testnotitie blijft bewaard na herladen |
 | Mobile first | bewijs/iteratie-002/04-live-mobiel-375.png | Dezelfde app is op 375 px breed gecontroleerd |
 | Agenda correct | bewijs/iteratie-002/agenda-controle.txt | 48 echte lessen en correcte start-/eindtijden onafhankelijk vergeleken |
+| Functionele vervolgvraag | bewijs/iteratie-003/opdracht.txt en 03-komende-week.png | Gebruikersfeedback en een correctie van het tijdvak leiden tot een echte derde iteratie: een weekkalender van 08:00–18:00 |
 
 ## Nog door de student/groep aan te vullen
 
@@ -18,4 +19,4 @@ Gebruik de volgende echte voorbeelden om het proces te laten zien. Sluit de afbe
 - Bevindingen van groepsleden met andere tools. Er is voor deze opdracht geen volwaardige vergelijking van meerdere bouwtools uitgevoerd.
 - Eventuele database-/AI-koppeling en concrete marketing-/salestoepassing wanneer die latere sprintonderdelen aan bod komen.
 
-Lovable-iteratie 001 en lokale reparatie-iteratie 002 moeten apart benoemd blijven. Presenteer de lokale reparatie niet alsof Lovable die heeft uitgevoerd. De presentatie duurt maximaal 10 minuten; aanvullend bewijs hoort op bijlageslides.
+Lovable-iteratie 001, lokale reparatie-iteratie 002 en functionele uitbreiding 003 moeten apart benoemd blijven. Presenteer de lokale wijzigingen niet alsof Lovable die heeft uitgevoerd. De presentatie duurt maximaal 10 minuten; aanvullend bewijs hoort op bijlageslides.

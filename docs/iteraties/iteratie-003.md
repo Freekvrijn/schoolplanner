@@ -23,6 +23,25 @@ Nieuwe WeekCalendar-component en afzonderlijke plaatsingslogica. Week toont stan
 
 ## Verificatie
 
-Nog in uitvoering. Er zijn tests toegevoegd voor tijdvak, overlap, aangrenzende lessen, afkappen van lange lessen en het openen van lesdetails vanuit het raster. Werkelijke test-/buildresultaten en screenshots worden na publicatie toegevoegd. Van de oude agendalijst is geen aparte screenshot vastgelegd; de vorige bronversie is bewaard in Git.
+Productiebron: f18b2dcb8152c2e7bec2949ba44373c0dc22d124. [GitHub-run](https://github.com/Freekvrijn/schoolplanner/actions/runs/43417407395) heeft geslaagde typecontrole, tests, build en deployment. [Bewaarde CI-resultaten](../bewijs/iteratie-003/ci-resultaat.json).
+
+| Controle | Werkelijk resultaat |
+| --- | --- |
+| Tijdvak 08:00–18:00 | Automatisch getest; begin/einde tevens live in de browser teruggezien |
+| Overlap en aangrenzende lessen | Plaatsingstests geslaagd; overlappende lessen krijgen aparte kolommen |
+| Lange lessen en verkeerde dag | Plaatsingstests geslaagd; volledig originele lestijden blijven behouden |
+| Lespaneel vanuit raster | Automatische test geslaagd; gastcollege van vrijdag 13 november live geopend met de juiste datum, 09:30–11:00, lokaal en docenten |
+| Oude weeklijst | Automatische test schakelt van Week naar Lijst en vindt dezelfde les terug |
+| Echte komende lessen | Week 47 in Chrome geopend: maandag 08:30–18:00, dinsdag 09:00–11:00 en 11:00–13:00, plus woensdag/donderdag op de juiste dagen |
+| Sticky dagkoppen | Live verticaal gescrold; dagkoppen en tijdkolom blijven leesbaar |
+| Mobiele indeling | In Chrome Responsive op 375 × 812 bekeken; compacte navigatie en weekraster met eigen schuifgebied zichtbaar. Geen fysiek toestel getest |
+
+Screenshots: [desktop met weekkeuze](../bewijs/iteratie-003/01-weekraster-desktop.png), [onderkant met 18:00](../bewijs/iteratie-003/02-tijdvak-tot-1800.png), [komende week met echte lesblokken](../bewijs/iteratie-003/03-komende-week.png).
+
+Van de oude agendalijst is geen aparte screenshot vastgelegd; de vorige bronversie is bewaard in Git. De nieuwe mobiele weergave is visueel bekeken maar daarvan is geen aparte screenshot opgeslagen. De oorspronkelijke mobiele plannercontrole staat bij iteratie 002. Er is geen nieuwe Lovable-bouw uitgevoerd voor deze uitbreiding.
+
+## Uitkomst
+
+De gewenste kalenderindeling is live onder Agenda → Week. Het definitieve tijdvak 08:00–18:00 vervangt de aanvankelijk genoemde 09:00–17:00. De tijdblokken gebruiken dezelfde les-ID's als de lijst en openen bestaande taken/notities. Status: afgerond en gepubliceerd.
 
 Persoonlijke reflectie: nog door student aan te vullen.
