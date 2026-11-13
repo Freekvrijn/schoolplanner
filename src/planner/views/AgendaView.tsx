@@ -19,12 +19,13 @@ import type { Lesson } from "@/lib/rooster";
 import { cn } from "@/lib/utils";
 import { EmptyState, PageHeader, Segmented } from "../components/bits";
 import { LessonRow } from "../components/LessonRow";
+import { WeekCalendar } from "../components/WeekCalendar";
 import { RoosterEmpty } from "../components/RoosterEmpty";
 import { RoosterStatus } from "../components/RoosterStatus";
 import { distinctCourses, groupByDay, matchesQuery } from "../lesson-utils";
 import { useNow, usePlanner } from "../state";
 
-type Mode = "dag" | "week" | "komend";
+type Mode = "dag" | "week" | "lijst" | "komend";
 
 export function AgendaView() {
   const now = useNow();
@@ -49,7 +50,7 @@ export function AgendaView() {
 
   let days: DayKey[];
   if (mode === "dag") days = [anchor];
-  else if (mode === "week") days = weekKeys(anchor);
+  else if (mode === "week" || mode === "lijst") days = weekKeys(anchor);
   else {
     days = [...byDay.keys()].filter((k) => showPast || k >= today);
   }
@@ -78,6 +79,7 @@ export function AgendaView() {
             options={[
               { value: "dag", label: "Dag" },
               { value: "week", label: "Week" },
+              { value: "lijst", label: "Lijst" },
               { value: "komend", label: "Alles" },
             ]}
             className="w-full sm:w-auto"
@@ -193,13 +195,13 @@ export function AgendaView() {
                 {showPast ? "Verberg eerdere lessen" : `Toon eerdere lessen (${pastCount} dagen)`}
               </Button>
             )}
-            <DayList
+            {mode === "week" ? <WeekCalendar days={days} lessons={filtered} today={today} now={now} /> : <DayList
               days={days}
               byDay={byDay}
               today={today}
               now={now}
-              showEmptyDays={mode === "week"}
-            />
+              showEmptyDays={mode === "lijst"}
+            />}
             {days.every((k) => !(byDay.get(k)?.length)) && (
               <EmptyState
                 icon={CalendarSearch}

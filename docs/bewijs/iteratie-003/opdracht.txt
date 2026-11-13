@@ -1,0 +1,9 @@
+Gebruikersopdracht 13 november 2026:
+"Ik wil ook een optie om een agendaoverzicht per week te zien net als in apple calender [Image #1] doe maar vanaf 9:00 tot 17:00 elke dag"
+
+Correctie voordat de implementatie gereed was:
+"Onee vanaf 8:00 trouwens tot 18:00"
+
+De screenshot van Apple Kalender is gebruikt als referentie voor de weekkolommen, tijdlijnen en lesblokken. De persoonlijke kalenderafbeelding zelf is niet in de publieke repo opgenomen.
+
+Uitvoerder: Codex lokaal, als uitbreiding op de eerder door Lovable gebouwde app. Geen nieuwe Lovable-prompt verstuurd wegens de al vastgestelde ontbrekende credits.

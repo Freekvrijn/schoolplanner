@@ -19,6 +19,20 @@ beforeEach(() => {
 afterEach(() => { cleanup(); vi.restoreAllMocks(); vi.unstubAllGlobals(); vi.useRealTimers(); });
 
 describe("Lesgegevens bewaren", () => {
+  it("toont een weekraster van 08:00 tot 18:00, laat lessen openen en houdt een lijstoptie", async () => {
+    window.history.replaceState(null, "", "/#/agenda");
+    render(<PlannerApp />);
+    expect(await screen.findByRole("region", { name: "Weekagenda van 08:00 tot 18:00" })).toBeInTheDocument();
+    expect(screen.getByText("08:00")).toBeInTheDocument();
+    expect(screen.getByText("18:00")).toBeInTheDocument();
+    fireEvent.click(await screen.findByRole("button", { name: /J34KM AI Skillslab ws, vrijdag 13 november 2026/ }));
+    expect(screen.getByRole("dialog", { name: "AI Skillslab" })).toBeInTheDocument();
+    fireEvent.click(screen.getByRole("button", { name: "Sluiten" }));
+    fireEvent.click(screen.getByRole("radio", { name: "Lijst" }));
+    expect(screen.queryByRole("region", { name: "Weekagenda van 08:00 tot 18:00" })).not.toBeInTheDocument();
+    expect(screen.getByRole("button", { name: /J34KM AI Skillslab ws, 09:30/ })).toBeInTheDocument();
+  });
+
   it("houdt bestaande taken en opslag intact wanneer een backup door quota niet kan worden opgeslagen", async () => {
     const { result } = renderHook(() => usePlanner(), { wrapper: PlannerProvider });
     await waitFor(() => expect(result.current.roosterStatus).toBe("ready"));

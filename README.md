@@ -7,7 +7,7 @@ Een mobile-first planner voor Freek met het echte Avans-rooster, voorbereidingst
 ## Gebruik
 
 - **Vandaag:** huidige/eerstvolgende les, dagoverzicht en open voorbereiding.
-- **Agenda:** dag-, week- en lijstweergave, met zoeken en vakfilter.
+- **Agenda:** weekraster met dagkolommen en tijdblokken van 08:00–18:00, plus dag- en lijstweergaven, zoeken en vakfilter. Op mobiel is het raster horizontaal schuifbaar.
 - **Les openen:** taken toevoegen, bewerken en afvinken, of automatisch opgeslagen aantekeningen typen.
 - **Taken / Aantekeningen:** alles terugvinden, ook als een les uit de actuele bron verdwijnt.
 - **Instellingen:** laatste roostersync en backup exporteren/importeren.
