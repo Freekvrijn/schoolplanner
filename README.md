@@ -39,7 +39,7 @@ npm run build
 npm run preview
 ```
 
-De uitvoer staat in dist-pages. Hashnavigatie ondersteunt GitHub Pages zonder serverroutes. De oorspronkelijke Lovable-previewbestanden zijn behouden; build:lovable is de aparte Lovable-build. De uiteindelijke Pages-app gebruikt uitsluitend de statische React-ingang.
+De uitvoer staat in dist-pages. Hashnavigatie ondersteunt GitHub Pages zonder serverroutes. De uiteindelijke Pages-app gebruikt uitsluitend de statische React-ingang. De ongewijzigde eerste Lovable-versie is terug te vinden in commit 074612b en in het Lovable-project. Ongebruikte serverframework- en templatebestanden zijn bij de publicatiereparatie verwijderd.
 
 ## Procesbewijs
 

@@ -1,0 +1,3 @@
+Onafhankelijke vergelijking met de opgehaalde ICS: 48 lessen; alle start- en eindtijden correct in Europe/Amsterdam.
+JSON bevat 48 lessen, bronupdate 2026-11-13T10:53:07.378Z.
+Controle door Codex met Python datetime/zoneinfo, onafhankelijk van de JavaScript-parser.
